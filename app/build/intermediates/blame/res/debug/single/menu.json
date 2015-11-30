@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/build/intermediates/res/merged/debug/menu/activity_min_max.xml",
+        "source": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/src/main/res/menu/activity_min_max.xml"
+    },
+    {
+        "merged": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/build/intermediates/res/merged/debug/menu/activity_preference.xml",
+        "source": "/Users/chengefei/AndroidStudioProjects/airdomewatchdog/app/src/main/res/menu/activity_preference.xml"
+    }
+]
