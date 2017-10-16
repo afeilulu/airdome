@@ -2,5 +2,9 @@
 .idea/*
 build/*
 .DS_Store
-app/*
+app/app.iml
+app/*.apk
+app/build/*
+
+
 
