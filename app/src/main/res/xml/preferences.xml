@@ -26,7 +26,7 @@
 	       android:title="服务器地址"
 	       android:summary="上传服务器url"
 	       android:dialogTitle="URL" 
-	       android:defaultValue="http://remote.chinaairdome.com:8080/rindex"/>
+	       android:defaultValue="http://pjms.chinaairdome.com/rindex"/>
 		
 		<EditTextPreference
 	       android:key="interval"
