@@ -11,7 +11,7 @@
 		   android:title="项目标识"
 		   android:summary="区分不同项目的标识"
 	       android:dialogTitle="项目标识" 
-	       android:defaultValue="11111111"/>
+	       android:defaultValue="TEST"/>
 	    
 		<EditTextPreference
 	       android:key="password"
@@ -19,14 +19,14 @@
 	       android:summary=""
 	       android:inputType="textPassword"
 	       android:dialogTitle="项目密码" 
-	       android:defaultValue="11111111"/>
+	       android:defaultValue="TEST"/>
 		
 		<EditTextPreference
 	       android:key="webservice_url"
 	       android:title="服务器地址"
 	       android:summary="上传服务器url"
 	       android:dialogTitle="URL" 
-	       android:defaultValue="http://pjms.chinaairdome.com/reports"/>
+	       android:defaultValue="http://remote.chinaairdome.com:8080/rindex"/>
 		
 		<EditTextPreference
 	       android:key="interval"

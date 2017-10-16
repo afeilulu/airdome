@@ -169,7 +169,8 @@ extends ALongRunningNonStickyBroadcastService
     		sendLog("直接读取文件");
     		mFtpFileDownloaded = true; // read file directly
     	}
-    	
+
+    	sendLog(getFilesDir().getAbsolutePath());
     	File targetFile = new File(getFilesDir() + "/report.txt");
     	if (!targetFile.exists()){
     		sendLog("文件不存在!");

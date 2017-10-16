@@ -338,11 +338,11 @@ extends ALongRunningNonStickyBroadcastService
         	Map<String,Object> back = new Gson().fromJson(json, Map.class);
         	int returnResult =  ((Double) back.get("return")).intValue();
         	if (returnResult > 0){
-        		String project_id = back.get("ID").toString();
+        		String project_id = back.get("ID")==null?null:back.get("ID").toString();
         		String newPassword = back.get("NewPass")==null?null:back.get("NewPass").toString();
         		int interval = back.get("interval")==null?0:((Double) back.get("interval")).intValue();
         		String nexttime = back.get("nexttime")==null?null:back.get("nexttime").toString();
-        		String verify_code =  back.get("Password").toString();
+        		String verify_code =  back.get("Password")==null?null:back.get("Password").toString();
         		SharedPreferences prefs =
             			PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
         		
